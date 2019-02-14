@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9BE70A152214DB4700F13855 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE70A142214DB4700F13855 /* main.swift */; };
+		9BE70A1C2214E83D00F13855 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE70A1B2214E83D00F13855 /* Student.swift */; };
+		9BE70A1E2214E8EE00F13855 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE70A1D2214E8EE00F13855 /* Person.swift */; };
+		9BE70A202214E9C200F13855 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE70A1F2214E9C200F13855 /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		9BE70A112214DB4700F13855 /* Day4Sample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day4Sample; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE70A142214DB4700F13855 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9BE70A1B2214E83D00F13855 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		9BE70A1D2214E8EE00F13855 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		9BE70A1F2214E9C200F13855 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				9BE70A142214DB4700F13855 /* main.swift */,
+				9BE70A1B2214E83D00F13855 /* Student.swift */,
+				9BE70A1D2214E8EE00F13855 /* Person.swift */,
+				9BE70A1F2214E9C200F13855 /* Car.swift */,
 			);
 			path = Day4Sample;
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BE70A1E2214E8EE00F13855 /* Person.swift in Sources */,
 				9BE70A152214DB4700F13855 /* main.swift in Sources */,
+				9BE70A202214E9C200F13855 /* Car.swift in Sources */,
+				9BE70A1C2214E83D00F13855 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
